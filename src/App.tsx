@@ -59,7 +59,10 @@ const App = () => {
 
   // Verify if all items are permanent in screen and close the game
   useEffect(() => {
-    if (gridItems.every((item) => item.permanentShown)) {
+    if (
+      moveCount > 0 &&
+      gridItems.every((item) => item.permanentShown === true)
+    ) {
       setPlaying(false);
     }
   }, [moveCount]);
@@ -88,7 +91,6 @@ const App = () => {
         while (pos < 0 || tempGrid[pos].item !== null) {
           pos = Math.floor(Math.random() * (items.length * 2));
         }
-        console.log(pos, i);
         tempGrid[pos].item = i;
       }
     }
