@@ -8,7 +8,7 @@
   
   👇 Clique na imagem para ser direcionado para o site 👇
   
-  [![jogo-memo]((https://user-images.githubusercontent.com/80923539/165222450-33f42031-0d78-4900-a224-337db5727ec2.jpg)](https://jogo-memo-react-974hbfr49-nanepifanio.vercel.app/)
+  [![jogo-memo](https://user-images.githubusercontent.com/80923539/165222450-33f42031-0d78-4900-a224-337db5727ec2.jpg)](https://jogo-memo-react-974hbfr49-nanepifanio.vercel.app/)
 
 Jogo da memória feito com React + Typescript + Styled Components. Configurei da minha maneira alguns componentes do projeto pra dar uma diferenciada, deixando eles um pouco mais dinâmicos. Também adicionei uma animação simples de rotação ao clicar no componente onde se encontram os items. Utilizei @keyframes com tranform: rotate3d() para isso.
 
